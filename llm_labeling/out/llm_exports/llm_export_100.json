@@ -1,0 +1,19 @@
+{
+  "num_samples": 100,
+  "batch_size": 256,
+  "potential_size": 100,
+  "seq_len": 20,
+  "d_model": 128,
+  "n_layers": 2,
+  "device": "cuda:0",
+  "generator_checkpoint": null,
+  "output_dir": "out\\llm_exports",
+  "deduplicate": true,
+  "max_iters": 3000,
+  "diversity_threshold": 0.7,
+  "train_steps_per_iter": 1,
+  "g_lr": 0.0001,
+  "diversity_weight": 0.2,
+  "reset_steps": 10,
+  "random_seed": 42
+}
